@@ -18,20 +18,29 @@ img {
 #sideline{
 	width:40%;
 	float:left;
-    height: 80%;
+    height: 100%;
     background-color: #0097BC;
 }
 .inside{
     padding:10px;
 }
 
+#WE{
+    padding:10px;
+    height: 30%;
+    background-color: #141863;
+}
+
 h1{
     color:aqua;
 }
 h2{
-    color:azure;
+    color:#B6FDFF;
 }
 li{
+    color: azure;
+}
+p{
     color: azure;
 }
 
