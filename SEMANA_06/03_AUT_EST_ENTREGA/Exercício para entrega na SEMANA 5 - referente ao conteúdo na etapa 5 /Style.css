@@ -65,6 +65,7 @@ img {
 
 .slider-inner img.active{
     display: inline-block;
+    visibility: visible;
 }
 
 .prev, .next{
