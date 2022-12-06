@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="Alg.js"></script>
+    <title>Algorithm</title>
+</head>
+<body>
+    <h1>Multiplication Table</h1>
+    <form action="Tab">
+        Multiplication table of the number: <input type="number" id="mn">
+        <br>
+        From: <input type="number" id="fn">
+        <br>
+        To: <input type="number" id="tn">
+        <input type="button" name="button" value="calculate" onclick="Multable();">
+        <div id="exit">Multiplication</div>
+    </form>
+    <br>
+
+    <h1>Palindrome</h1>
+    <form action="Pal">
+        Type a number <input type="number" id="pali">
+        <br>
+        <input type="button" name="button" value="verify" onclick="palindrome()">
+        <div id="exit1">Is it a palindrome?</div>
+    </form>
+    <br>
+
+    <h1>One, two, three, PI</h1>
+    <form action="">
+        Input number <input type="number" id="n1">
+        <input type="button" name="button" value="verify" onclick="PI();">
+        <div id="exit2">One, two, three, PI!</div>
+    </form>
+    <br>
+    
+    <h1>Reconstruction</h1>
+    <form action="">
+        Input a height (in centimeters) <input type="number" id="height"><br>
+        Input a width (in centimeters) <input type="number" id="width"><br>
+        What's your tile size? (in centimeters) <input type="number" id="tile"><br>
+        <input type="button" name="button" value="calculate" onclick= "Tile();">
+        <div id="exit3">How many tiles?</div>
+    </form>
+    <br>
+</body>
+</html>
